@@ -8,7 +8,7 @@ env:
     
 jobs:
   clean-jobs:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     steps:
       - name: Send GET request to check queues
         run: |
